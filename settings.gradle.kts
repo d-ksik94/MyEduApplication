@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MyEduApplication"
-include ':app'
+include (":app")
