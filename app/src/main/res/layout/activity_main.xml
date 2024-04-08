@@ -17,7 +17,7 @@
     <com.ksik.myeduapplication.customview.CircleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:myShapeColor="@color/purple_200"
+        app:myShapeColor="@color/colorPrimary"
         app:myTextString="테스트 입니다~"
         app:myTextColor="@color/black"
         app:myTextSize="30dp"
@@ -25,4 +25,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+    <com.ksik.myeduapplication.customview.CommonTitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="타이틀"
+        app:layoutRequireValue="true"
+        app:layoutRequireValueColor="@color/blue"
+        app:layoutRequireValueDotSize="8"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="text"
+            android:hint="타이틀을 입력해주세요."/>
+
+    </com.ksik.myeduapplication.customview.CommonTitleLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

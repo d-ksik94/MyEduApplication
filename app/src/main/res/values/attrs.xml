@@ -6,5 +6,18 @@
         <attr name="myTextString" format="string" />
         <attr name="myTextSize" format="dimension" />
     </declare-styleable>
+    <declare-styleable name="RequireValueTextView">
+        <attr name="requireValue" format="boolean" />
+        <attr name="requireValueColor" format="color"/>
+        <attr name="requireValueDotSize" format="float"/>
+        <attr name="requireValueDotMargin" format="dimension" />
+    </declare-styleable>
 
+    <declare-styleable name="CommonTitleLayout">
+        <attr name="title" format="string"/>
+        <attr name="layoutRequireValue" format="boolean" />
+        <attr name="layoutRequireValueColor" format="color"/>
+        <attr name="layoutRequireValueDotSize" format="float"/>
+        <attr name="layoutRequireValueDotMargin" format="dimension"/>
+    </declare-styleable>
 </resources>

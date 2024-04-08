@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.ksik.myeduapplication"
         minSdk = 26
-        targetSdk = 31
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -27,6 +27,11 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
     }
     kotlinOptions {
         jvmTarget = "1.8"

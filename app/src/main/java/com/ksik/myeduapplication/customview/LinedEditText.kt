@@ -21,7 +21,7 @@ class LinedEditText(context: Context?, attrs: AttributeSet?) :
     }
 
     @SuppressLint("DrawAllocation")
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         val count = lineCount
         val r = mRect
         val paint = mPaint
@@ -31,7 +31,7 @@ class LinedEditText(context: Context?, attrs: AttributeSet?) :
 
             r?.left?.let {
                 paint?.let { it1 ->
-                    canvas?.drawLine(it.toFloat(),
+                    canvas.drawLine(it.toFloat(),
                         (baseline+1).toFloat(), r.right.toFloat(), (baseline+1).toFloat(), it1
                     )
                 }

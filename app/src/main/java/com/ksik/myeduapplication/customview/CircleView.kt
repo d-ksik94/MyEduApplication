@@ -46,7 +46,7 @@ class CircleView
     }
 
     @SuppressLint("DrawAllocation")
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         val paint = Paint()
         // attr.xml 에서 참조해온 속성값을 적용
@@ -58,12 +58,12 @@ class CircleView
         for (i in 0..4) {
             paint.color = myShapeColor ?: Color.BLACK
             for (j in 0..1) {
-                canvas?.drawCircle(cx, cy, radi, paint)
+                canvas.drawCircle(cx, cy, radi, paint)
                 cy += height / 14
 
                 paint.color = myTextColor ?: Color.BLACK
                 paint.textSize = myTextSize ?: 10f
-                myText?.let { canvas?.drawText(it, cx + 300, cy, paint) }
+                myText?.let { canvas.drawText(it, cx + 300, cy, paint) }
             }
             canvas?.drawCircle(cx, cy, radi, paint)
             cx += width / 5

@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#1973E8</color>
+
+    <color name="example_3_black">#D9000000</color>
+    <color name="example_3_white">#D9FFFFFF</color>
+    <color name="example_3_blue">#1973E8</color>
+    <color name="example_3_blue_light">#D2E3FC</color>
+    <color name="example_3_toolbar_color">#607D8B</color>
+    <color name="example_3_statusbar_color">#455A64</color>
+
+
+    <!--  Camera UI Setting  -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+
+    <!-- design color code -->
+    <color name="dimmed_yellow">#ead200</color>
+    <color name="yellow100">#ffe500</color>
+    <color name="yellow50">#fff280</color>
+    <color name="yellow20">#fffacc</color>
+    <color name="yellow10">#fffce6</color>
+
+    <color name="dimmed_blue">#3c59af</color>
+    <color name="blue100">#466de2</color>
+    <color name="blue50">#a2b6f0</color>
+    <color name="blue20">#dae2f9</color>
+    <color name="blue10">#f5f7ff</color>
+
+    <color name="blue_info_link">#466de2</color>
+    <color name="green_doing">#19d078</color>
+    <color name="yellow_warning">#ffe500</color>
+    <color name="red_error">#ff5555</color>
+    <color name="gray_done">#aaacb4</color>
+
+    <color name="ui_blue_gray0">#233152</color>
+    <color name="ui_blue_gray1">#646a78</color>
+    <color name="ui_blue_gray2">#aaacb4</color>
+    <color name="ui_blue_gray3">#d0d3d8</color>
+    <color name="ui_blue_gray4">#e5e7ec</color>
+    <color name="ui_blue_gray5">#f1f2f6</color>
+    <color name="ui_blue_gray6">#f8f9fb</color>
+    <color name="ui_blue_gray7">#fafbfd</color>
+
+    <color name="dim_opacity50">#80646A78</color>
+
+    <color name="gray10">#1a1a1a</color>
+    <color name="gray20">#333333</color>
+    <color name="gray30">#4c4c4c</color>
+    <color name="gray40">#666666</color>
+    <color name="gray50">#808080</color>
+    <color name="gray60">#999999</color>
+    <color name="gray70">#b3b3b3</color>
+    <color name="gray80">#cccccc</color>
+    <color name="gray85">#d9d9d9</color>
+    <color name="gray90">#e5e5e5</color>
+    <color name="gray92">#ebebeb</color>
+    <color name="gray94">#f0f0f0</color>
+    <color name="gray96">#f5f5f5</color>
+    <color name="gray98">#fafafa</color>
+    <color name="gray100">#ffffff</color>
+
 </resources>
